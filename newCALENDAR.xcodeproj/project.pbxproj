@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3225862B239A119D00DCFD88 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3225862A239A119D00DCFD88 /* AddEventViewController.swift */; };
+		3225862D239A14A800DCFD88 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3225862C239A14A800DCFD88 /* File.swift */; };
+		3278EB3323B5EBA700E400BC /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278EB3223B5EBA700E400BC /* ListTableViewController.swift */; };
+		328CDB5523A7C73600DDE4D0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 328CDB5323A7C73600DDE4D0 /* Model.xcdatamodeld */; };
 		3290EDA92381325600F1EDAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290EDA82381325600F1EDAB /* AppDelegate.swift */; };
 		3290EDAB2381325600F1EDAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290EDAA2381325600F1EDAB /* ViewController.swift */; };
 		3290EDAE2381325600F1EDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3290EDAC2381325600F1EDAB /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		3290EDB32381325700F1EDAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3290EDB12381325700F1EDAB /* LaunchScreen.storyboard */; };
 		3290EDBE2381325700F1EDAB /* newCALENDARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290EDBD2381325700F1EDAB /* newCALENDARTests.swift */; };
 		3290EDC92381325700F1EDAB /* newCALENDARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290EDC82381325700F1EDAB /* newCALENDARUITests.swift */; };
+		32A57244239D063C008420CA /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A57243239D063C008420CA /* ScheduleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3225862A239A119D00DCFD88 /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		3225862C239A14A800DCFD88 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		3278EB3223B5EBA700E400BC /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		328CDB5423A7C73600DDE4D0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		3290EDA52381325600F1EDAB /* newCALENDAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newCALENDAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3290EDA82381325600F1EDAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3290EDAA2381325600F1EDAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		3290EDC42381325700F1EDAB /* newCALENDARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newCALENDARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3290EDC82381325700F1EDAB /* newCALENDARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newCALENDARUITests.swift; sourceTree = "<group>"; };
 		3290EDCA2381325700F1EDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A57243239D063C008420CA /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				3290EDA82381325600F1EDAB /* AppDelegate.swift */,
-				3290EDAA2381325600F1EDAB /* ViewController.swift */,
 				3290EDAC2381325600F1EDAB /* Main.storyboard */,
+				3290EDAA2381325600F1EDAB /* ViewController.swift */,
+				32A57243239D063C008420CA /* ScheduleViewController.swift */,
+				3225862A239A119D00DCFD88 /* AddEventViewController.swift */,
+				3278EB3223B5EBA700E400BC /* ListTableViewController.swift */,
+				3225862C239A14A800DCFD88 /* File.swift */,
 				3290EDAF2381325700F1EDAB /* Assets.xcassets */,
 				3290EDB12381325700F1EDAB /* LaunchScreen.storyboard */,
 				3290EDB42381325700F1EDAB /* Info.plist */,
+				328CDB5323A7C73600DDE4D0 /* Model.xcdatamodeld */,
 			);
 			path = newCALENDAR;
 			sourceTree = "<group>";
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3225862D239A14A800DCFD88 /* File.swift in Sources */,
+				3225862B239A119D00DCFD88 /* AddEventViewController.swift in Sources */,
+				328CDB5523A7C73600DDE4D0 /* Model.xcdatamodeld in Sources */,
+				32A57244239D063C008420CA /* ScheduleViewController.swift in Sources */,
 				3290EDAB2381325600F1EDAB /* ViewController.swift in Sources */,
 				3290EDA92381325600F1EDAB /* AppDelegate.swift in Sources */,
+				3278EB3323B5EBA700E400BC /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +606,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		328CDB5323A7C73600DDE4D0 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				328CDB5423A7C73600DDE4D0 /* Model.xcdatamodel */,
+			);
+			currentVersion = 328CDB5423A7C73600DDE4D0 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3290ED9D2381325600F1EDAB /* Project object */;
 }
